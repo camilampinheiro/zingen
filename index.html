@@ -11,7 +11,16 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 </head>
 <body>  
-  <a href="#" class="btn">Label</a>
-  <button href="#" class="btn">Label</button>
+  <div class="flex gap-1">
+    <a href="#" class="btn btn-sm">Label</a>
+    <a href="#" class="btn btn-md">Label</a>
+    <button href="#" class="btn btn-lg">Label</button>
+  </div>
+
+  <div class="flex gap-1">
+    <a href="#" area-label="Label" class="btn btn-sm"></a>
+    <a href="#" area-label="Label" class="btn btn-md"></a>
+    <button href="#" area-label="Label" class="btn btn-lg"></button>
+  </div>
 </body>
 </html>
